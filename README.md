@@ -1,2 +1,3 @@
-# project-Spotify-ImersaoAlura
- Projeto criando uma página do Spotify realizado na Imersão da Alura.
+# Imersão Alura
+Será desenvolvida uma página do Spotify para aprimorar os conhecimentos em frontend utilizando HTML, CSS, JavaScript e alguns Frameworks.
+
