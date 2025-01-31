@@ -1,5 +1,6 @@
 body {
-    background-color: #0A2E03;
+    background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -12,13 +13,13 @@ body {
 }
 
 .sidebar_navigation{
-    background-color: #1E4510;
+    background-color: #0A2E03;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar_navigation .logo {
-    background-color: #1E4510;
+    background-color: #0A2E03;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -167,4 +168,43 @@ body {
     width: 170px;
     margin: 8px;
     padding: 8px;
+}
+
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #0A2E03, #46e906);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.disclaimer-premium .text {
+   flex-shrink: 0;
+}
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
